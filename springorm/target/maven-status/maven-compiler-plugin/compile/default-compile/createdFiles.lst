@@ -1,0 +1,3 @@
+com/springcore/orm/entities/Student.class
+com/springcore/orm/dao/StudentDao.class
+com/springcore/orm/Test.class

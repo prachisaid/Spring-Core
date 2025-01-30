@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit this template
+-->
+<html>
+    <head>
+        <title>Login Page</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <h1 style="text-align:center;">Login Page</h1>
+        <h1>Login User</h1>
+        <form action="Prachi" method="get">
+            Username: <input type="text" name="username"/><br><br>
+            Password: <input type="password" name="password"/><br><br>
+            <input type="submit" name="login" value="Login"/>
+        </form>
+        <br>
+        <h1>Forgot Password</h1>
+        <form action="Prachi" method="get">
+            <input type="hidden" name="action" value="forget_password"/>
+            Forgot Password? Enter your username: <input type="text" name="username"/>
+            <br><br>
+            <input type="submit" value="Get Password"/>
+        </form>
+        <br>
+        <h1>Delete User</h1>
+        <form action="Prachi" method="get">
+            <input type="hidden" name="action" value="delete_user"/>
+            Username: <input type="text" name="username"/><br><br>
+            Password: <input type="password" name="password"/><br><br>
+            <input type="submit" value="Delete User"/>
+        </form>
+    </body>
+</html>
+

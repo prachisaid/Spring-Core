@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:p="http://www.springframework.org/schema/p"
+
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+          http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd
+        ">
+           
+    <bean class="com.springcore.collections.Person" name="person1">
+        <property name="id" value="12"/>
+        
+        <property name="friends">
+            <list>
+                <value>Prachi</value>
+                <value>Harsh</value>
+            </list>
+        </property>
+        
+        <property name="accounts">
+            <set>
+                <value>SBI</value>
+                <value>Central</value>
+            </set>
+        </property>
+        
+        <property name="edu">
+            <map>
+                <entry key="1" value="SSC"/>
+                <entry key="2" value="HSC"/>
+            </map>
+        </property>
+    </bean>
+        
+</beans>
