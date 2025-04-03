@@ -13,10 +13,10 @@
     <!--standalone list-->
     
     <util:list list-class="java.util.LinkedList" id="friendslist">
-        <value>Pratham</value>
-        <value>Tanay</value>
-        <value>Chiranjeev</value>
-        <value>Omkar</value>
+        <value>Prachi</value>
+        <value>ABC</value>
+        <value>XYZ</value>
+        <value>HHH</value>
     </util:list>
     
     <util:set set-class="java.util.HashSet" id="course" >
